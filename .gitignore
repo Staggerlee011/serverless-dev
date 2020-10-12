@@ -102,3 +102,21 @@ dist
 
 # TernJS port file
 .tern-port
+
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+#
+*.key
+*.crt
+
+# Serverless directories
+**/.serverless/*
+**/node_modules/*
